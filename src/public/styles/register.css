@@ -1,0 +1,166 @@
+
+.body_Register{
+    background-image: url("../images/login.jpg");
+    background-size: cover;
+   width: 100%;
+   height: 1400px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 2rem;
+   border-radius: 10px;
+}
+
+
+.wrapper_Register{
+    position: relative;
+    width: 600px;
+    height: auto;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: height 0.4s;
+    margin-left: 500px;
+    
+
+}
+
+.wrapper_Register .form-Box-Register{
+    width: 70%;
+    padding: 40px;
+    position: relative;
+}
+
+.with-errors {
+    height: auto; 
+  }
+
+.form-Box-Register h2{
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .input_container{
+     position: relative;
+     width: 100%;
+     height: 40px;
+     border-bottom: 2px solid;
+     margin: 30px 0;
+
+ }
+
+ .input_container label{
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    transform: translate(-50%);
+    font-size: 19px;
+    pointer-events: none;
+    transition: .4s;
+
+ }
+
+
+ .input_container input:focus~label,
+ .input_container input:not(:placeholder-shown)~label{
+    top: -9px;
+ }
+
+
+
+.input_container input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+}
+
+
+.input_container .icon{
+    position: absolute;
+    right: 6px;
+    font-size: 20px;
+    line-height: 4px;
+}
+
+.enlaceLogin{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+   justify-content: center;
+   margin: 25px 0 10px;
+}
+
+.labelclassUser{
+   margin-left: -12px;
+
+}
+
+.password{
+    margin-left: 5px;
+}
+
+.labelclassName{
+    margin-left: 42px;
+}
+
+.labelclassAge{
+    margin-left: -22px;
+}
+
+.labelclassEmail{
+    margin-left: 32px;
+}
+
+.labelclassCargo{
+    margin-left: 13px;
+}
+
+.labelclassSuper{
+    margin-left: 35px;
+}
+
+
+.errosReactForm{
+   font-size: 14px;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+
+.message{
+    margin-right: 5px;
+    padding-top: 14px;
+    font-size: 14.9px;
+}
+
+.botonRegister{
+    width: 100%;
+    height: 45px;
+    background-color:#476b3d ;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 12px;
+    font-size: 20px;
+}
